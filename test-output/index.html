@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-MainSuite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MainSuite" title="com.jira.TestClasses.TC03_Verify" class="method navigator-link" hash-for-method="verify">verify</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MainSuite" title="com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality" class="method navigator-link" hash-for-method="verifyWorkflowDragAndDropFunctionality">verifyWorkflowDragAndDropFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-MainSuite -->
@@ -122,24 +122,24 @@
           <div class="suite-MainSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.jira.TestClasses.TC03_Verify</span>
+              <span class="class-name">com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify">
-                  </a> <!-- verify -->
-                  <span class="method-name">verify</span>
+                  <a name="verifyWorkflowDragAndDropFunctionality">
+                  </a> <!-- verifyWorkflowDragAndDropFunctionality -->
+                  <span class="method-name">verifyWorkflowDragAndDropFunctionality</span>
                   <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
 System info: host: &apos;ASPIRE7&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0dde874d5f484fd4bfaa61ddef0c127f, clickElement {id=fc4bf884-89b5-41cb-9631-6de8bdd4a5f3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Prajwal\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55465/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0dde874d5f484fd4bfaa61ddef0c127f)] -&gt; xpath: //button [@id = &apos;createGlobalItem&apos;]]
-Session ID: 0dde874d5f484fd4bfaa61ddef0c127f
+Command: [fef2afcf6465db4c5987ffecf4c790e3, clickElement {id=4fa5463c-3674-4abb-b3ff-32cc3847e8ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Prajwal\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51269/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fef2afcf6465db4c5987ffecf4c790e3)] -&gt; xpath: //span [text() = &apos;Roadmap&apos;]]
+Session ID: fef2afcf6465db4c5987ffecf4c790e3
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -151,8 +151,8 @@ Session ID: 0dde874d5f484fd4bfaa61ddef0c127f
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at com.jira.POMClasses.HomePage.clickOnCreateBtn(HomePage.java:39)
-	at com.jira.TestClasses.TC03_Verify.verify(TC03_Verify.java:14)
+	at com.jira.POMClasses.HomePage.clickOnRoadmap(HomePage.java:30)
+	at com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality.verifyWorkflowDragAndDropFunctionality(TC02_VerifyWorkflowDragAndDropFunctionality.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
@@ -173,7 +173,7 @@ Session ID: 0dde874d5f484fd4bfaa61ddef0c127f
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.jira.TestClasses.TC03_Verify&quot;/&gt;
+      &lt;class name=&quot;com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- MainSuite --&gt;
@@ -215,14 +215,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify')
-data.setCell(0, 2, 'com.jira.TestClasses.TC03_Verify')
-data.setCell(0, 3, 19919);
+data.setCell(0, 1, 'verifyWorkflowDragAndDropFunctionality')
+data.setCell(0, 2, 'com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality')
+data.setCell(0, 3, 18929);
 window.suiteTableData['MainSuite']= { tableData: data, tableDiv: 'times-div-MainSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-MainSuite">
               </div> <!-- times-div-MainSuite -->
             </div> <!-- times-div -->
@@ -248,28 +248,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.jira.TestClasses.TC03_Verify</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">berforeClass(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">12527 ms</span>
+                <span class="method-start">9023 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verify</span>
-                <span class="method-start">14299 ms</span>
+                <span class="method-name">verifyWorkflowDragAndDropFunctionality</span>
+                <span class="method-start">10417 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">34229 ms</span>
+                <span class="method-start">29363 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">34237 ms</span>
+                <span class="method-start">29371 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

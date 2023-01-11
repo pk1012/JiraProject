@@ -4,15 +4,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.jira.TestClasses.TC03_Verify">
+      <class name="com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality">
         <methods>
-          <include name="verify"/>
+          <include name="verifyWorkflowDragAndDropFunctionality"/>
           <include name="berforeClass"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.jira.TestClasses.TC03_Verify -->
+      </class> <!-- com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MainSuite] -->

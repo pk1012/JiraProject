@@ -12,7 +12,7 @@ public class TC03_Verify extends TestBaseClass
 		HomePage hp = new HomePage(driver);
 		
 		hp.clickOnCreateBtn();
-		System.out.println("Clicked on create Btn");
-		
+		System.out.println();
+		System.out.println("Clicked on createBtn");
 	}
 }

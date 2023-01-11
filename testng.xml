@@ -5,11 +5,12 @@
   <parameter name="browserName" value="chrome"></parameter>
     <classes>
      <!-- 
-      <class name="com.jira.TestClasses.TC01_VerifyLoginFunctionality"/> 
-      <class name="com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality"/>
+      <class name="com.jira.TestClasses.TC01_VerifyLoginFunctionality"/>
+      <class name="com.jira.TestClasses.TC03_Verify"/>
       -->
       
-      <class name="com.jira.TestClasses.TC03_Verify"/>
+     
+	  <class name="com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality"/> 
       
     </classes>
   </test> <!-- Test -->

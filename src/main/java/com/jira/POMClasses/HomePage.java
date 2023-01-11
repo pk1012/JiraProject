@@ -1,5 +1,6 @@
 package com.jira.POMClasses;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -41,7 +42,8 @@ public class HomePage
 	
 	public WebElement createBtn()
 	{
-		return createBtn;
+		WebElement createBtn0 = driver.findElement(By.xpath("//button [@id = 'createGlobalItem']"));
+		return createBtn0;
 	}
 	
 	

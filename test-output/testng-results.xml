@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T00:21:17 IST" name="MainSuite" finished-at="2023-01-03T00:21:52 IST" duration-ms="34785">
+  <suite started-at="2023-01-11T20:32:39 IST" name="MainSuite" finished-at="2023-01-11T20:33:09 IST" duration-ms="29765">
     <groups>
     </groups>
-    <test started-at="2023-01-03T00:21:17 IST" name="Test" finished-at="2023-01-03T00:21:52 IST" duration-ms="34785">
-      <class name="com.jira.TestClasses.TC03_Verify">
-        <test-method is-config="true" signature="berforeClass(java.lang.String)[pri:0, instance:com.jira.TestClasses.TC03_Verify@402bba4f]" started-at="2023-01-03T00:21:18 IST" name="berforeClass" finished-at="2023-01-03T00:21:30 IST" duration-ms="12489" status="PASS">
+    <test started-at="2023-01-11T20:32:39 IST" name="Test" finished-at="2023-01-11T20:33:09 IST" duration-ms="29765">
+      <class name="com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality">
+        <test-method is-config="true" signature="berforeClass(java.lang.String)[pri:0, instance:com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality@402bba4f]" started-at="2023-01-11T20:32:39 IST" name="berforeClass" finished-at="2023-01-11T20:32:48 IST" duration-ms="8999" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- berforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.jira.TestClasses.TC03_Verify@402bba4f]" started-at="2023-01-03T00:21:30 IST" name="beforeMethod" finished-at="2023-01-03T00:21:32 IST" duration-ms="1772" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality@402bba4f]" started-at="2023-01-11T20:32:48 IST" name="beforeMethod" finished-at="2023-01-11T20:32:49 IST" duration-ms="1391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verify()[pri:0, instance:com.jira.TestClasses.TC03_Verify@402bba4f]" started-at="2023-01-03T00:21:32 IST" name="verify" finished-at="2023-01-03T00:21:52 IST" duration-ms="19919" status="FAIL">
+        <test-method signature="verifyWorkflowDragAndDropFunctionality()[pri:0, instance:com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality@402bba4f]" started-at="2023-01-11T20:32:49 IST" name="verifyWorkflowDragAndDropFunctionality" finished-at="2023-01-11T20:33:08 IST" duration-ms="18929" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
@@ -31,10 +31,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'ASPIRE7', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0dde874d5f484fd4bfaa61ddef0c127f, clickElement {id=fc4bf884-89b5-41cb-9631-6de8bdd4a5f3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Prajwal\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55465/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0dde874d5f484fd4bfaa61ddef0c127f)] -> xpath: //button [@id = 'createGlobalItem']]
-Session ID: 0dde874d5f484fd4bfaa61ddef0c127f]]>
+Command: [fef2afcf6465db4c5987ffecf4c790e3, clickElement {id=4fa5463c-3674-4abb-b3ff-32cc3847e8ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Prajwal\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51269/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fef2afcf6465db4c5987ffecf4c790e3)] -> xpath: //span [text() = 'Roadmap']]
+Session ID: fef2afcf6465db4c5987ffecf4c790e3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -43,10 +43,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'ASPIRE7', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0dde874d5f484fd4bfaa61ddef0c127f, clickElement {id=fc4bf884-89b5-41cb-9631-6de8bdd4a5f3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Prajwal\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55465/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0dde874d5f484fd4bfaa61ddef0c127f)] -> xpath: //button [@id = 'createGlobalItem']]
-Session ID: 0dde874d5f484fd4bfaa61ddef0c127f
+Command: [fef2afcf6465db4c5987ffecf4c790e3, clickElement {id=4fa5463c-3674-4abb-b3ff-32cc3847e8ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Prajwal\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51269/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fef2afcf6465db4c5987ffecf4c790e3)] -> xpath: //span [text() = 'Roadmap']]
+Session ID: fef2afcf6465db4c5987ffecf4c790e3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -63,8 +63,8 @@ at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethod
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at com.jira.POMClasses.HomePage.clickOnCreateBtn(HomePage.java:39)
-at com.jira.TestClasses.TC03_Verify.verify(TC03_Verify.java:14)
+at com.jira.POMClasses.HomePage.clickOnRoadmap(HomePage.java:30)
+at com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality.verifyWorkflowDragAndDropFunctionality(TC02_VerifyWorkflowDragAndDropFunctionality.java:15)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -96,16 +96,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.jira.TestClasses.TC03_Verify@402bba4f]" started-at="2023-01-03T00:21:52 IST" name="afterMethod" finished-at="2023-01-03T00:21:52 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- verifyWorkflowDragAndDropFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality@402bba4f]" started-at="2023-01-11T20:33:08 IST" name="afterMethod" finished-at="2023-01-11T20:33:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.jira.TestClasses.TC03_Verify@402bba4f]" started-at="2023-01-03T00:21:52 IST" name="afterClass" finished-at="2023-01-03T00:21:52 IST" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality@402bba4f]" started-at="2023-01-11T20:33:08 IST" name="afterClass" finished-at="2023-01-11T20:33:09 IST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.jira.TestClasses.TC03_Verify -->
+      </class> <!-- com.jira.TestClasses.TC02_VerifyWorkflowDragAndDropFunctionality -->
     </test> <!-- Test -->
   </suite> <!-- MainSuite -->
 </testng-results>

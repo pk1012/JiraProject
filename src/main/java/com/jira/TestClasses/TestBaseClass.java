@@ -73,7 +73,7 @@ public class TestBaseClass
 	@AfterMethod
 	public void afterMethod()
 	{
-
+		//Write logout code
 	}
 	
 	@AfterClass

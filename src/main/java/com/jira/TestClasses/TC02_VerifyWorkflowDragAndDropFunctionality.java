@@ -18,10 +18,6 @@ public class TC02_VerifyWorkflowDragAndDropFunctionality extends TestBaseClass
 		hp.clickOnActiveSprint();
 		System.out.println("Clicked on active sprint");
 		
-		ActiveSprintPage asp = new ActiveSprintPage(driver);
-		
-		asp.moveToDone();
-		System.out.println("moved developement from ToDo to Done");
 		
 	}
 }

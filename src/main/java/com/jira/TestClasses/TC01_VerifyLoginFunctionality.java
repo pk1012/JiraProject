@@ -20,8 +20,6 @@ public class TC01_VerifyLoginFunctionality extends TestBaseClass
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(hp.createBtn()));
 		
-//		Thread.sleep(8000);
-		
 		String expected = "MG8 board - Agile Board - Jira";
 		String actual = driver.getTitle();
 		
